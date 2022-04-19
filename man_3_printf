@@ -1,0 +1,44 @@
+.TH Our function _printf
+.SH NAME
+
+.B _printf
+\- format and print data in the standard output
+
+.SH SYNOPSIS
+.B \_printf
+.RB FORMAT
+.RB [\| ARGUMENTS \|]
+.RB OPTIONS
+
+.SH DESCRIPTION
+.B _printf
+Print ARGUMENT(s) according to FORMAT, or execute according to OPTION.
+.PP
+Interpreted sequences are:
+
+.RS
+.nf
+%   ARGUMENT
+%c  For print a single character
+%s  For print a string of characters
+%d  For print a decimal (base 10) number
+%i  For print an integer a base 10 number
+%%  For print a sing
+%r  For print the reversed string
+
+.SH AUTHOR
+.PP
+Written by abdulsemed abdelila and abdurehman mustefa.
+
+.SH COPYRIGHT
+.PP
+Copyright © 2022
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+.SH CREDITS
+.PP
+This man page is created only for educational purpose by
+.SH
+.PP
+april 2022 _printf(1)
