@@ -4,12 +4,11 @@
 #include <unistd.h>
 
 /**
- * op_string - Print Integer
- * @form: name va_list
+ * _putchar - prints given character
+ * @c: character to print.
  *
- * Return: Nothing.
+ * Return: number of characters printed, -1 if error
  */
-
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
@@ -112,3 +111,4 @@ int op_integer(va_list form)
 
 	return (lenghti);
 }
+
